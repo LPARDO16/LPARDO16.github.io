@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exportar PDF a Excel</title>
+</head>
+<body>
+    <h1>Exportar PDF a Excel</h1>
+    <form id="pdfForm" enctype="multipart/form-data" method="POST" action="/upload">
+        <label for="pdf_file">Seleccionar un PDF:</label>
+        <input type="file" id="pdf_file" name="pdf_file" accept=".pdf" required>
+        <br>
+        <label for="excel_filename">Nombre del archivo Excel:</label>
+        <input type="text" id="excel_filename" name="excel_filename" required>
+        <br>
+        <button type="submit">Exportar a Excel</button>
+    </form>
+</body>
+
+
+
